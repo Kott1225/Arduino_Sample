@@ -1,11 +1,13 @@
 #include <Arduino.h>
-
+// 左：赤印に赤の線
+// 右：赤印に黒/緑の線
+// わに：上昇
+// ケーブル：下降
 const uint8_t PIN_DIR = 7;
 const uint8_t PIN_PWM = 6;
 const uint8_t PIN_SW_UP = 2;
 const uint8_t PIN_SW_DOWN = 3;
-
-const uint8_t MOTOR_SPEED = 150; // 速度（0-255）
+const uint8_t MOTOR_SPEED = 100; // 速度（0-255）
 
 void setup() {
   pinMode(PIN_DIR, OUTPUT);
