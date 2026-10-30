@@ -49,8 +49,8 @@
 const uint8_t pin_BUTTON = 4;   // ボタン（INPUT_PULLUP、押下=LOW）← D4は普通のデジタルピン
 const uint8_t pin_SW_A   = 5;   // リミットSwA 上昇完了（NC、INPUT_PULLUP）
 const uint8_t pin_SW_B   = 6;   // リミットSwB 下降完了（NC、INPUT_PULLUP）
-const uint8_t pin_PWM    = 10;  // モータ速度 PWM出力
-const uint8_t pin_DIR    = 9;   // モータ方向 DIR出力
+const uint8_t pin_PWM    = 9;  // モータ速度 PWM出力
+const uint8_t pin_DIR    = 10;   // モータ方向 DIR出力
 const uint8_t pin_LED    = 13;  // インジケータ LED
 
 // ============================================================
